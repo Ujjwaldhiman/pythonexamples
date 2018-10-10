@@ -22,4 +22,5 @@ for i in range(len(X)):
            result[i][j] += X[i][k] * Y[k][j]
 
 for r in result:
+    #print
    print(r)
